@@ -1,0 +1,17 @@
+package mockk;
+
+public class Example {
+	public static void main(String[] args) {
+		String [] a={"kavi","07","vellore","onesoft"};
+		String  a=a[0].split(",");
+		a.name=a[0];
+		a.id=Integer.parseInt(a[1]);
+		a.place=a[2];
+		a.company=a[3];
+		System.out.println("name"+a.name+"id"+a.id+"place"+a.place+"company"+a.company);
+		
+		
+		
+	}
+
+}

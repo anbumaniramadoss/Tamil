@@ -1,0 +1,14 @@
+package mockk;
+
+public class Example {
+	public static void main(String[] args) {
+		String []  a={"kavi","07","vellore","onesoft"};
+		
+
+		System.out.println(a[0]+","+a[1]+","+a[2]+","+a[3]+","+a[4]);
+		
+		
+		
+	}
+
+}
